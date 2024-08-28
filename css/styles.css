@@ -29,7 +29,6 @@ nav {
 
 .banner-img {
     height: 300px;
-    background-image: url(https://picsum.photos/1000);
     background-size: cover;
     background-position: center;
 }
@@ -51,4 +50,22 @@ nav {
     background-position: center;
     border-radius: 50%;
     width: 50px;
+}
+
+.img-1 {
+    background-image: url(../assets/1.jpg);
+}
+
+.img-2 {
+    background-image: url(../assets/2.jpg);
+}
+
+.img-3 {
+    background-image: url(../assets/3.png);
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+    }
 }
